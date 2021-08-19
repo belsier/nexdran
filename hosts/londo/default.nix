@@ -41,9 +41,9 @@ in
 
   networking.hostName = "Y4iGUCQm9W";
   networking.networkmanager.enable = true;
-  networking.firewall.allowedTCPPorts = [ 22 ];
+  networking.firewall.allowedTCPPorts = [ 22 3000 27017];
+
   services.openssh.enable = true;
-  # boot.kernel.sysctl = { "net.ipv4.ip_forward" = 1; };
 
   sound.enable = true;
   hardware.pulseaudio.enable = true;
