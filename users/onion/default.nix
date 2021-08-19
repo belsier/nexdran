@@ -23,7 +23,7 @@ in
         ../../home/programs/alacritty.nix
         ../../home/programs/fzf.nix
         ../../home/programs/git.nix
-        # ../../home/programs/password-store.nix
+        ../../home/programs/password-store.nix
         ../../home/programs/tmux.nix
         ../../home/programs/vim.nix
         ../../home/programs/zathura.nix
