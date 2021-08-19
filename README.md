@@ -5,7 +5,6 @@ A set of NixOS modules & configurations.
 ## TODO
 
 
-
 ## Pending
 
 - [ ] Find a way to add unstable packages so gui can be enabled
