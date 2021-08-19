@@ -1,7 +1,7 @@
 { config, pkgs, ...}:
 {
   services.mongodb = {
-    enable = false;
+    enable = true;
     enableAuth = true;
     initialRootPassword = "root";
     initialScript = pkgs.writeText "mongodb_initial.js" ''
